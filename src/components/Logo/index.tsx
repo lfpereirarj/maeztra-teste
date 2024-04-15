@@ -4,10 +4,10 @@ export const Logo = () => {
       <a className="logo-link" href="">
         <picture>
           <source 
-            srcSet="/logo.svg"
+            srcSet="/maeztra-teste/logo.svg"
             media="(min-width: 1200px)"
           />
-          <img src="/logo-mobile.svg" alt="" className="infocard-image w-full h-auto" width="147" />
+          <img src="/maeztra-teste/logo-mobile.svg" alt="" className="infocard-image w-full h-auto" width="147" />
         </picture>
       </a>
     </div>

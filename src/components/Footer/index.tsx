@@ -26,44 +26,44 @@ export const Footer = () => {
             <ul className="flex items-center gap-x-[22px]">
               <li>
                 <a href="">
-                  <img src="https://via.placeholder.com/32" alt="" />
+                  <img src="/maeztra-teste/facebook.svg" alt="" />
                 </a>
               </li>
               <li>
                 <a href="">
-                  <img src="https://via.placeholder.com/32" alt="" />
+                  <img src="/maeztra-teste/linkedin.svg" alt="" />
                 </a>
               </li>
               <li>
                 <a href="">
-                  <img src="https://via.placeholder.com/32" alt="" />
+                  <img src="/maeztra-teste/instagram.svg" alt="" />
                 </a>
               </li>
               <li>
                 <a href="">
-                  <img src="https://via.placeholder.com/32" alt="" />
+                  <img src="/maeztra-teste/youtube.svg" alt="" />
                 </a>
               </li>
             </ul>
             <ul className="flex items-center gap-x-[22px]">
               <li>
                 <a href="">
-                  <img src="https://via.placeholder.com/32" alt="" />
+                  <img src="/maeztra-teste/visa.svg" alt="" />
                 </a>
               </li>
               <li>
                 <a href="">
-                  <img src="https://via.placeholder.com/32" alt="" />
+                  <img src="/maeztra-teste/mastercard.svg" alt="" />
                 </a>
               </li>
               <li>
                 <a href="">
-                  <img src="https://via.placeholder.com/32" alt="" />
+                  <img src="/maeztra-teste/visa.svg" alt="" />
                 </a>
               </li>
               <li>
                 <a href="">
-                  <img src="https://via.placeholder.com/32" alt="" />
+                  <img src="/maeztra-teste/mastercard.svg" alt="" />
                 </a>
               </li>
             </ul>
@@ -71,13 +71,13 @@ export const Footer = () => {
               <li>
                 <a className="text-[10px] font-open-sans text-white flex flex-col gap-y-2" href="">
                   Powered by
-                  <img src="/vtex-logo.svg" alt="" />
+                  <img src="/maeztra-teste/vtex-logo.svg" alt="" />
                 </a>
               </li>
               <li>
                 <a className="text-[10px] font-open-sans text-white flex flex-col gap-y-2" href="">
                   Developed by
-                  <img src="/logo-white.svg" alt="" />
+                  <img src="/maeztra-teste/logo-white.svg" alt="" />
                 </a>
               </li>
             </ul>

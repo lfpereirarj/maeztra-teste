@@ -10,10 +10,10 @@ export const InforCard = () => {
       <div className="infocard-media flex-shrink-0">
         <picture>
           <source 
-            srcSet="/banner.jpg"
+            srcSet="/maeztra-teste/banner.jpg"
             media="(min-width: 1200px)"
           />
-          <img src="/banner-mobile.jpg" alt="" className="infocard-image w-full h-auto" />
+          <img src="/maeztra-teste/banner-mobile.jpg" alt="" className="infocard-image w-full h-auto" />
         </picture>
         
       </div>

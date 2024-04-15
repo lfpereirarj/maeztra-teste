@@ -19,19 +19,19 @@ export const Brands = () => {
 
   const brandsArray = [
     {
-      image: 'https://via.placeholder.com/298x62'
+      image: '/maeztra-teste/comma.svg'
     },
     {
-      image: 'https://via.placeholder.com/298x62'
+      image: '/maeztra-teste/melissa.svg'
     },
     {
-      image: 'https://via.placeholder.com/298x62'
+      image: '/maeztra-teste/forever.svg'
     },
     {
-      image: 'https://via.placeholder.com/298x62'
+      image: '/maeztra-teste/zara.svg'
     },
     {
-      image: 'https://via.placeholder.com/298x62'
+      image: '/maeztra-teste/ann-taylor.svg'
     }
   ]
 

@@ -26,7 +26,7 @@ export const ProductSummary = (props: Product) => {
       <div className="product-summary-info space-y-2 flex flex-col">
         <div className="product-summary-colors flex items-center gap-x-2">
           {colors.map(({name, color}: Color) => (
-            <button className={`${color} text-[0px] w-[26px] h-[26px] rounded`}>{name}</button>
+            <button className={`${color} text-[0px] w-[26px] h-[26px] rounded border hover:border-black`}>{name}</button>
           ))}
         </div>
         <span className="product-summary-price text-xl font-bold">{price}</span>

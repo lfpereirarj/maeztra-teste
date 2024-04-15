@@ -10,7 +10,7 @@ const BenefitsItem = ({image, title, subtitle}:BenefitsItem) => {
   return (
     <div className="benefits-item p-4 flex items-center gap-x-[22px] bg-[#efefef] rounded w-[298px] flex-grow-0 flex-shrink-0">
         <div className="benefits-media">
-          <img src={image} alt="" className="benefits-image" />
+          <img src={`/maeztra-teste/${image}`} alt="" className="benefits-image" />
         </div>
         <div className="benefits-info flex flex-col">
           <span className="benefits-title text-sm font-bold">{title}</span>
@@ -25,27 +25,27 @@ export const Benefits = () => {
 
   const benefitsArray = [
     {
-      image: 'https://via.placeholder.com/32',
+      image: 'world.svg',
       title: 'Produtos Importados',
       subtitle: 'Produto de Alta Qualidade'
     },
     {
-      image: 'https://via.placeholder.com/32',
+      image: 'stock.svg',
       title: 'Estoque no Brazil',
       subtitle: 'Produtos mais perto de você!'
     },
     {
-      image: 'https://via.placeholder.com/32',
+      image: 'change.svg',
       title: 'Trocas Garantidas',
       subtitle: 'Trocas em até 48 horas, vejas as regras'
     },
     {
-      image: 'https://via.placeholder.com/32',
+      image: 'discount.svg',
       title: 'Ganhe 5%',
       subtitle: 'Pagando à vista no Cartão'
     },
     {
-      image: 'https://via.placeholder.com/32',
+      image: 'truck.svg',
       title: 'Frete Grátis',
       subtitle: 'Em compras acima de R$ 499,00'
     }

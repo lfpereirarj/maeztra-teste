@@ -11,7 +11,7 @@ const ModalNewsletter = () => {
           <Dialog.Close asChild>
             <button className='absolute text-white right-0 -top-4 uppercase text-xs'>Fechar</button>
           </Dialog.Close>
-          <img className='hidden lg:block' src="https://via.placeholder.com/426x530" alt="" />
+          <img className='hidden lg:block h-full' src="/maeztra-teste/bg-newsletter.jpg" alt="" />
           <div className='mt-5 flex flex-col items-center [&_form]:flex-col [&_.newsletter]:w-full w-full p-5 h-full justify-center lg:max-w-80 lg:p-0  lg:mt-0 lg:mx-auto [&_.newsletter_input]:h-10 [&_.newsletter_input]:border-[#bebebe]'>
           <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M3.66667 0.943359H22.3333C23.6167 0.943359 24.6667 2.05563 24.6667 3.41506V18.2453C24.6667 19.6047 23.6167 20.717 22.3333 20.717H3.66667C2.38334 20.717 1.33334 19.6047 1.33334 18.2453V3.41506C1.33334 2.05563 2.38334 0.943359 3.66667 0.943359Z" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round"/>
